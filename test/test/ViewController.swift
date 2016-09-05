@@ -19,6 +19,10 @@ class ViewController: UIViewController {
         view.addSubview(vi)
 
         vi.backgroundColor = UIColor.redColor()
+        let vv = UIView()
+        vv.frame = CGRect(x: 50, y: 180, width: 100, height: 100)
+        view.addSubview(vv)
+        vv.backgroundColor = UIColor.greenColor()
     }
 
     override func didReceiveMemoryWarning() {
